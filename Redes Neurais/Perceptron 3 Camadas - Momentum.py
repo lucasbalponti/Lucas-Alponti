@@ -4,73 +4,47 @@ import numpy as np
 class pmc_3_layers:
     
     def __init__(self, n1, n2, n3):
-        # Number of elements in each layer
+        # Número de elementos em cada camada
         self.n1 = n1
         self.n2 = n2
         self.n3 = n3
         
-        # Inicializing weights with randon values (LeCun)
+        # Inicializando pesos com valores aleatórios (LeCun)
         self.w = []
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n2, n1+1)))
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n3, n2+1)))
     
     def forward(self, variables_updated):
         
-        #print('\n')
-        #print('### Forward ###')
-        #print('\n')
-        
-        # Sigmoid function
+        # Função sigmoide
         gfunc = np.vectorize(lambda a : 1/(1+np.exp(-a)))
         
-        # First layer
-        
+        # Primeira camada
         i1 = np.atleast_2d(self.w[0]@variables_updated)
-        #print('i1 = np.atleast_2d(self.w[0]@variables_updated)')
-        #print(i1)
         
         y1 = np.atleast_2d(gfunc(i1))
         
         y1 = np.insert(y1, 0, -1, axis = 1)
-        #print('y1 = np.atleast_2d(gfunc(i1)) \n y1 = np.insert(y1, 0, -1, axis = 1)')
-        #print(y1)
         
-        # Second layer
-
-        i2 = np.atleast_2d(self.w[1]@y1.T)
-        #print('i2 = np.atleast_2d(self.w[1]@y1.T)')
-        #print(i2)        
+        # Segunda camada
+        i2 = np.atleast_2d(self.w[1]@y1.T)       
 
         y2 = np.atleast_2d(gfunc(i2))
-        #print('y2 = np.atleast_2d(gfunc(i2))')
-        #print(y2)
         
         return i1, y1, i2, y2
         
     def backward(self, variable, classe, i1, y1, i2, y2):
         
-        #print('\n')
-        #print('### Backward ###')
-        #print('\n')
-        
         variable = np.atleast_2d(variable)
         classe = np.atleast_2d(classe)
         
-        # Sigmoid function derivate
+        # Derivada da função sigmoide:
         glinhafunc = np.vectorize(lambda a : np.exp(-a)/((1+np.exp(-a))**2))
         
         # Second layer
-
-        #print('classe')
-        #print(classe)
-        
         glinha2 = np.atleast_2d(glinhafunc(i2))
-        #print('glinha2 = np.atleast_2d(glinhafunc(i2))')
-        #print(glinha2)
 
         grad2 = np.atleast_2d((classe.T - y2)*glinha2)
-        #print('grad2 = np.atleast_2d((classe - y2)*glinha2)')
-        #print(grad2)
         
         previous_w1 = self.w[1]
         
@@ -78,21 +52,11 @@ class pmc_3_layers:
         
         self.previous_w[1] = previous_w1
         
-        #print('self.w[1] = np.atleast_2d(self.w[1] + self.taxa_aprendizado*grad2@y1)')
-        #print(self.w[1])
-        
-        # First layer
+        # Primeira camada
         
         glinha1 = np.atleast_2d(glinhafunc(i1))
-        #print('glinha1 = np.atleast_2d(glinhafunc(i1))')
-        #print(glinha1)
-        
-        #print('self.w[1][:, 1:]')
-        #print(self.w[1][:, 1:])
         
         grad1 = np.atleast_2d((grad2.T@self.w[1][:, 1:])*glinha1)
-        #print('grad1 = np.atleast_2d((grad2@self.w[1][:, 1:])*glinha1)')
-        #print(grad1)
         
         previous_w0 = self.w[0]
         
@@ -100,10 +64,6 @@ class pmc_3_layers:
         
         self.previous_w[0] = previous_w0
         
-        #print('self.w[0] = np.atleast_2d(self.w[0] + self.taxa_aprendizado*grad1.T@variable)')
-        #print(self.w[0])
-        
-    
     def eqm(self):
         
         eqm = 0
