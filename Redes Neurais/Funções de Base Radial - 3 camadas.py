@@ -4,14 +4,14 @@ import numpy as np
 class rbf_3_layers:
     
     def __init__(self, n1, n2, n3):
-        # Number of elements in each layer
+        # Número de elementos em cada camada
         self.n1 = n1
         self.n2 = n2
         self.n3 = n3
     
     def __repr__(self):
-    # construct and return a string that represents the network
-    # architecture
+    # Constrói e retorna uma string que representa a
+    # arquitetura da rede neural
         return "NeuralNetwork: {}".format(
                 "-".join([str(self.n1), str(self.n2), str(self.n3)]))
 
