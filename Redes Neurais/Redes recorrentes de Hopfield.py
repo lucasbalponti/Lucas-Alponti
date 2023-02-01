@@ -1,13 +1,7 @@
 import pandas as pd
 import numpy as np
 
-class RRH:
-    
-    #def __init__(self):
-        
-    
-    #def __repr__(self):
-        
+class RRH:        
     
     def train_ep(self, train_data):
         
@@ -24,15 +18,9 @@ class RRH:
             
             self.w = self.w + train_data_updated[i]@train_data_updated[i].T
         
-        print(self.w)
-        print('\n')
-        
         self.w = self.w/n
-        print(self.w)
-        print('\n')
         
         self.w = self.w - (len(train_data_updated)/n)*np.identity(n)
-        print(self.w)
     
     def predict(self, variables):
         
