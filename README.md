@@ -23,3 +23,5 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 | Nome | Descrição |
 | -- | --|
 | [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script visando identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importação da base histórica dessas ações, visando posteriormente a criação de dashboards. |
+
+.
