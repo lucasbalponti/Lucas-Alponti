@@ -1,9 +1,9 @@
 <style>
 table th:first-of-type {
-    width: 35%;
+width: 35%;
 }
 table th:nth-of-type(2) {
-    width: 65%;
+width: 65%;
 }
 </style>
 
