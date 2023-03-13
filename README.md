@@ -2,6 +2,10 @@
 
 Olá! 
 
+<p align="center">
+  <img width="300" height="300" src="https://avatars.githubusercontent.com/u/122104166?s=400&u=3f32c0107a43c2e99f8e61603c25c094a5553182&v=4">
+</p>
+
 Me chamo Lucas, sou formado em Engenharia Mecânica pela USP e atualmente curso MBA em Data Science e Analytics pela MBA USP ESALQ, além de realizar estudos relacionados à tecnologia na plataforma Alura.
 
 Este repositório tem como objetivo servir de portfólio para apresentar os diferentes códigos criados por mim nas diversas áreas de estudo de meu interesse.
