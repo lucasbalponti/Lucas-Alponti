@@ -18,9 +18,8 @@ No que abrange as redes neurais artificiais, é de grande importância entender 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
 
-| Nome | Descrição |
+| Nome<img width=200/> | Descrição<img width=500/> |
 | -- | --|
-|<img width=200/>|<img width=500/>|
 | [Perceptron 3 Camadas - Momentum](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Momentum.py) | Rede neural perceptron de 3 camadas utilizando momentum para melhorar a velocidade de treinamento |
 | [Perceptron 3 Camadas - Time Delay](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Time%20Delay.py) | Rede neural perceptron de 3 camadas *time delay* para sistemas que variam no tempo |
 | [Funções de Base Radial](./Redes%20Neurais/Funções%20de%20Base%20Radial%20-%203%20Camadas.py) | Rede neural de 3 camadas com funções de base radial |
