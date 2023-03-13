@@ -18,7 +18,7 @@ No que abrange as redes neurais artificiais, é de grande importância entender 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
 
-| Nome &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Descrição |
+| Nome | Descrição |
 | -- | --|
 | [Perceptron 3 Camadas - Momentum](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Momentum.py) | Rede neural perceptron de 3 camadas utilizando momentum para melhorar a velocidade de treinamento |
 | [Perceptron 3 Camadas - Time Delay](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Time%20Delay.py) | Rede neural perceptron de 3 camadas *time delay* para sistemas que variam no tempo |
@@ -30,14 +30,14 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 
 Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análise de bases de dados:
 
-| Nome &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Descrição |
+| Nome | Descrição |
 | -- | --|
-| [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script visando identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importação da base histórica dessas ações, visando posteriormente a criação de dashboards. |
+| [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script para identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importar a base histórica dessas ações, visando posteriormente a criação de dashboards. |
 
 ## DevOps
 
 Nos códigos abaixo estarão representados projetos relacionados à devops, estruturação de máquinas na nuvem utilizando terraform e ansible, entre outros
 
-| Nome &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Descrição |
+| Nome | Descrição |
 | -- | --|
 | [Projeto de Infraestrutura Como Código](https://github.com/lucasbalponti/estudos-IAC-ansible-terraform) | Neste projeto foi desenvolvida uma infraestrutura na AWS utilizando Terraform e Ansible |
