@@ -4,7 +4,7 @@ Olá!
 
 Me chamo Lucas, sou formado em Engenharia Mecânica pela USP e atualmente curso MBA em Data Science e Analytics pela MBA USP ESALQ, além de realizar estudos relacionados à tecnologia na plataforma Alura.
 
-Este repositório tem como objetivo servir de portfólio para apresentar os diferentes códigos criados por mim nas mais diferentes áreas de estudo.
+Este repositório tem como objetivo servir de portfólio para apresentar os diferentes códigos criados por mim nas diversas áreas de estudo de meu interesse.
 
 Contato profissional: lucasbalponti@gmail.com
 
