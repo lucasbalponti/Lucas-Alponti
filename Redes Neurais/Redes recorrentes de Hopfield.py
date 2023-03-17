@@ -1,8 +1,10 @@
 import pandas as pd
 import numpy as np
 
+# Criando a classe para representar a rede recorrente de hopfield
 class RRH:        
     
+    # Definindo a função para realizar o treinamento
     def train_ep(self, train_data):
         
         train_data_updated = []
@@ -22,6 +24,7 @@ class RRH:
         
         self.w = self.w - (len(train_data_updated)/n)*np.identity(n)
     
+    # Definindo a função para realizar a previsão à partir do modelo já treinado
     def predict(self, variables):
         
         variables_updated = []
