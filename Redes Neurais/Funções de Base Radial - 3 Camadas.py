@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Criando a classe que representa a rede neural de base radial de 3 camadas
 class rbf_3_layers:
     
     def __init__(self, n1, n2, n3):
@@ -15,7 +16,7 @@ class rbf_3_layers:
         return "NeuralNetwork: {}".format(
                 "-".join([str(self.n1), str(self.n2), str(self.n3)]))
 
-    
+    # Criando a função que realiza a primeira etapa do processo de correção à partir das distâncias euclidianas
     def correction_1(self):
         
         current_groups = np.zeros(len(self.train_samples_x))
@@ -73,7 +74,7 @@ class rbf_3_layers:
             
         self.var_ativation = var_ativation
 
-        
+     # Criando a função que realiza a primeira parte do "passo forward" após a primeira etapa de correção
     def forward_1(self, train_samples_x):
         
         y1 = np.zeros(self.n2)
@@ -92,14 +93,14 @@ class rbf_3_layers:
         
         return y1
 
-        
+    # Criando a função que realiza a segunda parte do "passo forward" após a primeira etapa de correção
     def forward_2(self, y1):
         
         y2 = np.atleast_2d(self.w[1]@y1.T)
         
         return(y2)
     
-
+    # Criando a função que realiza a segunda etapa da correção
     def correction_2(self, y1, y2, train_samples_y):
         
         y1 = np.atleast_2d(y1)
@@ -108,7 +109,7 @@ class rbf_3_layers:
         
         self.w[1] = np.atleast_2d(self.w[1] + self.learn_rate*grad2@y1)
 
-    
+    # Criando a função que realiza o cálculo do erro quadrático médio
     def eqm(self):
         
         eqm = 0
@@ -125,7 +126,7 @@ class rbf_3_layers:
         
         return eqm
 
-
+    # Criando a função que realiza o treinamento do modelo
     def train(self, train_samples_x, train_samples_y, learn_rate, precision):
         
         self.train_samples_x = np.copy(train_samples_x)
@@ -182,7 +183,7 @@ class rbf_3_layers:
             
             self.epoch = self.epoch + 1
 
-
+    # Criando a função que realiza a previsão à partir do modelo já treinado
     def predict(self, variables):
         
         resultados = np.zeros((len(variables),self.n3), dtype = float)
