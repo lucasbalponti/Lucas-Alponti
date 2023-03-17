@@ -1,6 +1,8 @@
 import pandas as pd
 import numpy as np
 
+# Criando uma classe de objetos para representar a rede perceptron de 3 camadas
+
 class pmc_3_layers:
     
     def __init__(self, n1, n2, n3):
@@ -14,6 +16,7 @@ class pmc_3_layers:
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n2, n1+1)))
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n3, n2+1)))
     
+    #Criando a função que faz o "passo forward" do algoritmo
     def forward(self, variables_updated):
         
         # Função sigmoide
@@ -32,7 +35,8 @@ class pmc_3_layers:
         y2 = np.atleast_2d(gfunc(i2))
         
         return i1, y1, i2, y2
-        
+    
+    # Criando a função que faz o "passo backward" do algoritmo
     def backward(self, variable, classe, i1, y1, i2, y2):
         
         variable = np.atleast_2d(variable)
@@ -64,6 +68,7 @@ class pmc_3_layers:
         
         self.previous_w[0] = previous_w0
         
+    # Criando a função que calcula o erro quadrático médio
     def eqm(self):
         
         eqm = 0
@@ -78,6 +83,7 @@ class pmc_3_layers:
         
         return eqm
         
+    # Criando a função que realiza o treinamento do modelo
     def train(self, variables, output, taxa_aprendizado, precision, momentum):
         
         self.output = output
@@ -132,6 +138,7 @@ class pmc_3_layers:
             
             self.epoch = self.epoch + 1
 
+    # Criando a função que realiza as previsões à partir do modelo já treinado
     def predict(self, variables):
     
         variables_updated = np.insert(variables, 0, np.full((1, len(variables)), -1), axis = 1)
