@@ -6,11 +6,11 @@
   <img width="300" height="300" src="https://avatars.githubusercontent.com/u/122104166?s=400&u=3f32c0107a43c2e99f8e61603c25c094a5553182&v=4">
 </p>
 
-Me chamo Lucas, sou formado em Engenharia Mecânica pela USP e atualmente curso MBA em Data Science e Analytics pela MBA USP ESALQ, além de realizar estudos relacionados à tecnologia na plataforma Alura.
+Me chamo Lucas, formado em **Engenharia Mecânica pela USP** e atualmente **cursando MBA em Data Science e Analytics pela MBA USP ESALQ**, além de realizar **estudos relacionados à tecnologia na plataforma Alura**.
 
 Este repositório tem como objetivo servir de portfólio para apresentar os diferentes códigos criados por mim nas diversas áreas de estudo de meu interesse.
 
-Contato profissional: lucasbalponti@gmail.com
+**Contato profissional: lucasbalponti@gmail.com**
 
 ## Redes Neurais Artificais
 
@@ -36,8 +36,9 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 
 ## DevOps
 
-Nos códigos abaixo estarão representados projetos relacionados à devops, estruturação de máquinas na nuvem utilizando terraform e ansible, entre outros
+Nos códigos abaixo estarão representados projetos relacionados à devops, infraestrutura como código, CI/CD, entre outros.
 
 | Nome | Descrição |
 | -- | --|
-| [Projeto de Infraestrutura Como Código](https://github.com/lucasbalponti/estudos-IAC-ansible-terraform) | Neste projeto foi desenvolvida uma infraestrutura na AWS utilizando Terraform e Ansible |
+| [Projeto de Infraestrutura Como Código](https://github.com/lucasbalponti/estudos-IAC-ansible-terraform) | Projeto onde foi desenvolvida uma infraestrutura na AWS utilizando Terraform e Ansible |
+| [Projeto de CI e pipelines no Github Actions](https://github.com/lucasbalponti/CI-e-pipelines-no-Github-Actions) | Projeto onde foram desenvolvidos workflows no github actions para testar o funcionamento de um código, realizar a compilação do mesmo e criar uma imagem do programa no docker sempre que um commit fosse realizado. |
