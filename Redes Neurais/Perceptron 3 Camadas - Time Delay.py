@@ -14,6 +14,7 @@ class pmc_3_layers:
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n2, n1+1)))
         self.w.append(np.random.default_rng().uniform(-(2.4/n1), (2.4/n1),(n3, n2+1)))
     
+    # Criando a função que realiza o "passo forward"
     def forward(self, variables_updated):
         
         # Função sigmoide
@@ -33,6 +34,7 @@ class pmc_3_layers:
         
         return i1, y1, i2, y2
         
+    # Criando a função que realiza o "passo backward"
     def backward(self, variable, classe, i1, y1, i2, y2):
         
         variable = np.atleast_2d(variable)
@@ -63,7 +65,7 @@ class pmc_3_layers:
         
         self.previous_w[0] = previous_w0
         
-    
+    # Criando a função que calcula o erro quadrático médio
     def eqm(self):
         
         eqm = 0
@@ -80,6 +82,7 @@ class pmc_3_layers:
         
         return eqm
         
+    # Criando a função que realiza o treinamento do modelo
     def train(self, variables, taxa_aprendizado, precision, momentum):
         
         self.variables = variables
@@ -135,6 +138,7 @@ class pmc_3_layers:
             
             self.epoch = self.epoch + 1
 
+    # Criando a função que realiza a previsão à partir do modelo já treinado
     def predict(self, variables):
         
         resultados = np.atleast_2d(np.zeros((len(variables), self.n3)))
