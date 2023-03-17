@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+# Definindo uma classe que irá representar um único neurônio, com suas respectivas coodernadas e vizinhos
 class neuron:
     
     def __init__(self, ident, xcord, ycord):
@@ -17,6 +18,7 @@ class neuron:
     def add_class(self, neuron_class):
         self.neuron_class = neuron_class
 
+# Definindo uma classe para representar a rede de konohen
 class konohen:
     
     def __init__(self, nx, ny, radius):
@@ -41,6 +43,7 @@ class konohen:
                         neighbours.append(self.k_map[j].ident)
             self.k_map[i].add_neighbours(neighbours)
     
+    # Definindo uma função para imprimir o mapa 2d da rede
     def map_2d(self):
         for i in range(self.ny):
             line = []
@@ -48,10 +51,12 @@ class konohen:
                 line.append(self.k_map[i*(self.nx) + j].ident)
             print(line)
     
+    # Definindo uma função para imprimir os vizinhos de cada neurônio
     def neighbours(self):
         for i in range(len(self.k_map)):
             print('Neuron ' + str(i) + ': ' + ', '.join(map(str, self.k_map[i].neighbours)))
     
+    # Definindo a função para realizar a correção do neurônio vencedor
     def winner_correction(self, i, winner):
         
         self.k_map[winner].weight = self.k_map[winner].weight + self.learn_rate*(self.train_samples[i] - self.k_map[winner].weight)
@@ -60,6 +65,7 @@ class konohen:
         
         self.current_weights[winner] = self.k_map[winner].weight
     
+    # Definindo a função para realizar a correção dos neurônios vizinhos ao vencedor
     def neighbours_corretion(self, i, winner):
         
         for j in range(len(self.k_map[winner].neighbours)):
@@ -70,6 +76,7 @@ class konohen:
             
             self.current_weights[self.k_map[winner].neighbours[j]] = self.k_map[self.k_map[winner].neighbours[j]].weight
     
+    # Definindo a função para realizar o treinamento do modelo
     def train(self, train_samples, classes, learn_rate):
         
         self.train_samples = np.copy(train_samples)
@@ -142,6 +149,7 @@ class konohen:
             
             self.k_map[i].add_class([k for k, v in class_dict.items() if v == max(class_dict.values())])
     
+    # Definindo a função para imprimir o mapa 2d dos neurônios do modelo treinado e suas respectivas classes
     def class_map_2d(self):
         for i in range(self.ny):
             line = []
