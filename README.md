@@ -34,6 +34,7 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 | -- | --|
 | [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script para identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importar a base histórica dessas ações, visando posteriormente a criação de dashboards. |
 | [Apache Airflow - Pipeline de dados](https://github.com/lucasbalponti/Apache-Airflow---Pipeline-de-dados) | Projeto onde foi desenvolvida uma pipeline de dados para execução semanal via Apache Airflow e Python |
+| [Apache Beam - Pipeline de dados](https://github.com/lucasbalponti/Apache-Beam---Data-Pipeline) | Projeto onde foi desenvolvida uma pipeline de dados onde duas bases de dados grandes foram tratadas utilizando o Apache Beam |
 
 ## DevOps
 
