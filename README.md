@@ -15,7 +15,7 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 ## Redes Neurais Artificais
 
 <details>
-<summary>Clique para expandir os códigos relacionados à área</summary>
+<summary><b>Clique para expandir</b> a lista de códigos relacionados à área</summary>
 <br>
 No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
 
