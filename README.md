@@ -12,29 +12,10 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 
 **Contato profissional: lucasbalponti@gmail.com**
 
-## Redes Neurais Artificais
-
-<details>
-<summary><b>Clique para expandir</b> a lista de códigos relacionados à área</summary>
-<br>
-No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
-
-Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
-
-| Nome | Descrição |
-| -- | --|
-| [Perceptron 3 Camadas - Momentum](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Momentum.py) | Rede neural perceptron de 3 camadas utilizando momentum para melhorar a velocidade de treinamento |
-| [Perceptron 3 Camadas - Time Delay](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Time%20Delay.py) | Rede neural perceptron de 3 camadas *time delay* para sistemas que variam no tempo |
-| [Funções de Base Radial](./Redes%20Neurais/Funções%20de%20Base%20Radial%20-%203%20Camadas.py) | Rede neural de 3 camadas com funções de base radial |
-| [Rede Recorrente de Hopfield](./Redes%20Neurais/Redes%20recorrentes%20de%20Hopfield.py) | Rede neural recorrente utilizada para memorização |
-| [Rede Auto-Organizável de Konohen](./Redes%20Neurais/Rede%20Auto-organizável%20de%20Konohen.py) | Rede neural auto-organizável de Konohen para classificação |
-
-</details>
-
 ## Engenharia e Ciência de dados
 
 <details>
-<summary>Clique para expandir os códigos relacionados à área</summary>
+<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
 <br>
 
 Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análise de bases de dados:
@@ -47,10 +28,30 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 
 </details>
 
+## Redes Neurais Artificais
+
+<details>
+<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
+<br>
+No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
+
+Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
+
+| Nome | Descrição |
+| -- | --|
+| [Perceptron 3 Camadas - Momentum](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Momentum.py) | Rede neural perceptron de 3 camadas utilizando momentum para melhorar a velocidade de treinamento |
+| [Perceptron 3 Camadas - Time Delay](./Redes%20Neurais/Perceptron%203%20Camadas%20-%20Time%20Delay.py) | Rede neural perceptron de 3 camadas *time delay* para sistemas que variam no tempo |
+| [Funções de Base Radial](./Redes%20Neurais/Funções%20de%20Base%20Radial%20-%203%20Camadas.py) | Rede neural de 3 camadas com funções de base radial |
+| [Rede Recorrente de Hopfield](./Redes%20Neurais/Redes%20recorrentes%20de%20Hopfield.py) | Rede neural recorrente utilizada para memorização |
+| [Rede Auto-Organizável de Konohen](./Redes%20Neurais/Rede%20Auto-organizável%20de%20Konohen.py) | Rede neural auto-organizável de Konohen para classificação |
+| [Redes Neurais na Prática Utilizando Keras](./Redes Neurais/Redes Neurais com Keras.ipynb) | Criando uma rede neural na prática utilizando a biblioteca Keras no Python |
+
+</details>
+
 ## DevOps
 
 <details>
-<summary>Clique para expandir os códigos relacionados à área</summary>
+<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
 <br>
 
 Nos códigos abaixo estarão representados projetos relacionados à devops, infraestrutura como código, CI/CD, entre outros.
