@@ -16,7 +16,8 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 
 <details>
 <summary>Expandir</summary>
-No que abrange as redes neurais artificiais, é de grande importância entender o **funcionamento de seus algoritmos** para poder utilizá-los da maneira mais adequada. 
+
+No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
 
