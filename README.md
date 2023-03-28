@@ -22,9 +22,13 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 
 | Nome | Descrição |
 | -- | --|
-| [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script para identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importar a base histórica dessas ações, visando posteriormente a criação de dashboards. |
 | [Apache Airflow - Pipeline de dados](https://github.com/lucasbalponti/Apache-Airflow---Pipeline-de-dados) | Projeto onde foi desenvolvida uma pipeline de dados para execução semanal via Apache Airflow e Python |
 | [Apache Beam - Pipeline de dados](https://github.com/lucasbalponti/Apache-Beam---Data-Pipeline) | Projeto onde foi desenvolvida uma pipeline de dados onde duas bases de dados grandes foram tratadas utilizando o Apache Beam |
+| [Regressão Linear](./Ciência%20de%20dados/Regressões%20Lineares.ipynb) | Código onde foi realizada uma regressão logística para estimar valores de consumo de combustível  |
+| [Regressão Logística](./Ciência%20de%20dados/Regressão%20Logística.ipynb) | Código onde foi realizada uma regressão logística para 'prever' quais candidatos seriam eleitos em uma eleição  |
+| [Série Temporal e Previsão](./Ciência%20de%20dados/Série%20Temporal%20e%20Previsão.ipynb) | Código onde foi analisada uma série temporal de passageiros em voos comerciais, bem como a decomposição da série e a previsão de períodos futuros  |
+| [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script para identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importar a base histórica dessas ações, visando posteriormente a criação de dashboards. |
+| [Manipulação de base de dados - Análise de acesso à Oportunidade](./Ciência%20de%20dados/Manipulação%20base%20de%20dados%20-%20Análise%20de%20Acesso%20à%20Oportunidades.ipynb) | Código onde foi feita a manipulação e análise de uma base de dados contendo informações sobre acesso à oportunidade |
 
 </details>
 
@@ -44,7 +48,29 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 | [Funções de Base Radial](./Redes%20Neurais/Funções%20de%20Base%20Radial%20-%203%20Camadas.py) | Rede neural de 3 camadas com funções de base radial |
 | [Rede Recorrente de Hopfield](./Redes%20Neurais/Redes%20recorrentes%20de%20Hopfield.py) | Rede neural recorrente utilizada para memorização |
 | [Rede Auto-Organizável de Konohen](./Redes%20Neurais/Rede%20Auto-organizável%20de%20Konohen.py) | Rede neural auto-organizável de Konohen para classificação |
-| [Redes Neurais na Prática Utilizando Keras](./Redes Neurais/Redes Neurais com Keras.ipynb) | Criando uma rede neural na prática utilizando a biblioteca Keras no Python |
+| [Redes Neurais na Prática Utilizando Keras](./Redes%20Neurais/Redes%20Neurais%20com%20Keras.ipynb) | Criando uma rede neural na prática utilizando a biblioteca Keras no Python |
+
+</details>
+
+## Machine Learning
+
+<details>
+<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
+<br>
+
+Nos códigos abaixo foram utilizadas diferentes bibliotecas Python de Machine Learning para realizar a criação e treinamento de modelos de aprendizado de máquina, avaliando as matrizes de confusão resultantes e suas taxas de acerto e erro:
+
+| Nome | Descrição |
+| -- | --|
+| [Naive Bayes](./Machine%20Learning/Naive%20Bayes.ipynb) | Neste código foi treinado um classificador Naive Bayes. Naive Bayes é uma técnica para construir classificadores, considerando que toda característica é independente uma da outra |
+| [Árvore de decisão](./Machine%20Learning/Árvore%20de%20decisão.ipynb) | Neste código foi treinada uma Árvore de decisão. A Árvore de decisão é um algoritmo utilizado para classificação e regressão através de nós de decisão |
+| [Seleção de atributos](./Machine%20Learning/Seleção%20de%20atributos.ipynb) | Neste código foi feita uma analise dos atributos mais importantes para a criação do modelo, e então os mesmos foram utilizados para criar um novo modelo |
+| [Aprendizado baseado em instância - KNN](./Machine%20Learning/Aprendizado%20baseado%20em%20instância%20-%20KNN.ipynb) | Neste código foi treinado um classificador baseado em instância. Os classificadores baseados em instância simplesmente armazenam os exemplos de treinamento ao criar um novo modelo. No exemplo foi utilizado o K-Nearest Neighbors |
+| [Ensemble Learning - Random Forest](./Machine%20Learning/Ensemble%20Learning%20-%20Random%20Forest.ipynb) | Neste código foi treinado um método 'ensemble'. Estes métodos utilizando multiplos algoritmos de aprendizado para obter melhor performance preditiva. No exemplo foi utilizado o Random Forest, que utiliza multiplas árvores de decisão |
+| [Agrupamento com K-means](./Machine%20Learning/Agrupamento%20com%20K-means.ipynb) | Neste código foi treinado um agrupador K-means. Este agrupador segrega pontos de dados em torno de centroides, particionando as n observações em k grupos |
+| [Agrupamento com C-means](./Machine%20Learning/C-Means.ipynb) | Neste código foi treinado um agrupador C-means. Este agrupador permite que cada elemento possa pertencer a mais de um grupo |
+| [Agrupamento com K-medoids](./Machine%20Learning/K-Medoids.ipynb) | Neste código foi treinado um agrupador K-medoids. Este agrupador é similar ao K-means, mas escolhe pontos de dados reais como centroides, facilitando a interpretação |
+| [Regras de associação](./Machine%20Learning/Regras%20de%20associação.ipynb) | Neste código foi treinado um algoritmo de regras de associação. As regras de associação são utilizadas para descobrir elementos que ocorrem em comum dentro de um determinado conjunto de dados |
 
 </details>
 
