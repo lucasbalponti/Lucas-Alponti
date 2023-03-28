@@ -15,8 +15,8 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 ## Redes Neurais Artificais
 
 <details>
-<summary>Expandir</summary>
-
+<summary>Clique para expandir os códigos relacionados à área</summary>
+<br>
 No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
@@ -31,7 +31,11 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 
 </details>
 
-## Ciência de dados
+## Engenharia e Ciência de dados
+
+<details>
+<summary>Clique para expandir os códigos relacionados à área</summary>
+<br>
 
 Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análise de bases de dados:
 
@@ -41,7 +45,13 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 | [Apache Airflow - Pipeline de dados](https://github.com/lucasbalponti/Apache-Airflow---Pipeline-de-dados) | Projeto onde foi desenvolvida uma pipeline de dados para execução semanal via Apache Airflow e Python |
 | [Apache Beam - Pipeline de dados](https://github.com/lucasbalponti/Apache-Beam---Data-Pipeline) | Projeto onde foi desenvolvida uma pipeline de dados onde duas bases de dados grandes foram tratadas utilizando o Apache Beam |
 
+</details>
+
 ## DevOps
+
+<details>
+<summary>Clique para expandir os códigos relacionados à área</summary>
+<br>
 
 Nos códigos abaixo estarão representados projetos relacionados à devops, infraestrutura como código, CI/CD, entre outros.
 
@@ -50,3 +60,5 @@ Nos códigos abaixo estarão representados projetos relacionados à devops, infr
 | [Projeto de Infraestrutura Como Código](https://github.com/lucasbalponti/estudos-IAC-ansible-terraform) | Projeto onde foi desenvolvida uma infraestrutura na AWS utilizando Terraform e Ansible |
 | [Projeto de CI e pipelines no Github Actions](https://github.com/lucasbalponti/CI-e-pipelines-no-Github-Actions) | Projeto onde foram desenvolvidos workflows no github actions para testar o funcionamento de um código, realizar a compilação do mesmo e criar uma imagem do programa no docker sempre que um commit fosse realizado. |
 | [Projeto de Observabilidade e Monitoramento](https://github.com/lucasbalponti/Observabilidade-e-Monitoramento---Prometheus-Grafana-e-Alertmanager/) | Projeto onde foi feita a configuração do actuator, Prometheus e Grafana para observabilidade de uma aplicação de exemplo, além da configuração do Alert Manager |
+
+</details>
