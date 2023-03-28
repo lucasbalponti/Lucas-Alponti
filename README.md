@@ -14,6 +14,8 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 
 ## Redes Neurais Artificais
 
+<summary>Expandir</summary>
+<details>
 No que abrange as redes neurais artificiais, é de grande importância entender o **funcionamento de seus algoritmos** para poder utilizá-los da maneira mais adequada. 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
@@ -25,6 +27,8 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 | [Funções de Base Radial](./Redes%20Neurais/Funções%20de%20Base%20Radial%20-%203%20Camadas.py) | Rede neural de 3 camadas com funções de base radial |
 | [Rede Recorrente de Hopfield](./Redes%20Neurais/Redes%20recorrentes%20de%20Hopfield.py) | Rede neural recorrente utilizada para memorização |
 | [Rede Auto-Organizável de Konohen](./Redes%20Neurais/Rede%20Auto-organizável%20de%20Konohen.py) | Rede neural auto-organizável de Konohen para classificação |
+
+</details>
 
 ## Ciência de dados
 
