@@ -1,4 +1,4 @@
-# Portfólio projetos e estudos
+# Portfólio de projetos e estudos
 
 ## Seja bem vindo! 
 
