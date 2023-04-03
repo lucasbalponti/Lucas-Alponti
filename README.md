@@ -27,6 +27,9 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 | [Regressão Linear](./Ciência%20de%20dados/Regressões%20Lineares.ipynb) | Código onde foi realizada uma regressão logística para estimar valores de consumo de combustível  |
 | [Regressão Logística](./Ciência%20de%20dados/Regressão%20Logística.ipynb) | Código onde foi realizada uma regressão logística para 'prever' quais candidatos seriam eleitos em uma eleição  |
 | [Série Temporal e Previsão](./Ciência%20de%20dados/Série%20Temporal%20e%20Previsão.ipynb) | Código onde foi analisada uma série temporal de passageiros em voos comerciais, bem como a decomposição da série e a previsão de períodos futuros  |
+| [Organizando dados na AWS](https://github.com/lucasbalponti/Organizando-dados-na-aws) | Projeto onde foi criado um servidor Ubuntu na AWS, instalado o PostgreSQL e então realizada a criação de bases de dados e importação de dados  |
+| [PostgreSQL - Views, sub-queries e funções](https://github.com/lucasbalponti/Alura-PostgreSQL-Views-subqueries-funcoes) | Projeto onde foi realizado o estudo dos conceitos de views, sub-queries e funções no PostgreSQL |
+| [PostgreSQL - Introdução](https://github.com/lucasbalponti/Alura-PostgreSQL) | Projeto onde foi realizado o estudo de conceitos introdutórios no PostgreSQL |
 | [Importação e manipulação - top 25 ações](./Ciência%20de%20dados/Manipulação%20e%20importação%20-%20base%20top%2025%20ações.py) | Script para identificar as 25 ações cujas empresas tem os maiores valores de mercado e então a importar a base histórica dessas ações, visando posteriormente a criação de dashboards. |
 | [Manipulação de base de dados - Análise de acesso à Oportunidade](./Ciência%20de%20dados/Manipulação%20base%20de%20dados%20-%20Análise%20de%20Acesso%20à%20Oportunidades.ipynb) | Código onde foi feita a manipulação e análise de uma base de dados contendo informações sobre acesso à oportunidade |
 
