@@ -1,4 +1,4 @@
-# Portfólio de códigos
+# Portfólio projetos e estudos
 
 ## Seja bem vindo! 
 
