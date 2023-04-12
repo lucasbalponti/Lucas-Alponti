@@ -65,6 +65,7 @@ Nos códigos abaixo foram utilizadas diferentes bibliotecas Python de Machine Le
 
 | Nome | Descrição |
 | -- | --|
+| [Classificação com SKLearn](https://github.com/lucasbalponti/classificacao-com-sklearn) | Neste projeto foram realizados estudos sobre a biblioteca sklearn, alguns de seus classifcadores, e alguns conceitos como baseline e curva de decisão |
 | [Naive Bayes](./Machine%20Learning/Naive%20Bayes.ipynb) | Neste código foi treinado um classificador Naive Bayes. Naive Bayes é uma técnica para construir classificadores, considerando que toda característica é independente uma da outra |
 | [Árvore de decisão](./Machine%20Learning/Árvore%20de%20decisão.ipynb) | Neste código foi treinada uma Árvore de decisão. A Árvore de decisão é um algoritmo utilizado para classificação e regressão através de nós de decisão |
 | [Seleção de atributos](./Machine%20Learning/Seleção%20de%20atributos.ipynb) | Neste código foi feita uma analise dos atributos mais importantes para a criação do modelo, e então os mesmos foram utilizados para criar um novo modelo |
