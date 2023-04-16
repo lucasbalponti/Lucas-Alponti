@@ -24,6 +24,7 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 | -- | --|
 | [Apache Airflow - Pipeline de dados](https://github.com/lucasbalponti/Apache-Airflow---Pipeline-de-dados) | Projeto onde foi desenvolvida uma pipeline de dados para execução semanal via Apache Airflow e Python |
 | [Apache Beam - Pipeline de dados](https://github.com/lucasbalponti/Apache-Beam---Data-Pipeline) | Projeto onde foi desenvolvida uma pipeline de dados onde duas bases de dados grandes foram tratadas utilizando o Apache Beam |
+| [Scraping com Python](https://github.com/lucasbalponti/Scraping-com-python) | Projeto onde foram estudados e aplicados conceitos de Web Scraping utilizando Python |
 | [Regressão Linear](./Ciência%20de%20dados/Regressões%20Lineares.ipynb) | Código onde foi realizada uma regressão logística para estimar valores de consumo de combustível  |
 | [Regressão Logística](./Ciência%20de%20dados/Regressão%20Logística.ipynb) | Código onde foi realizada uma regressão logística para 'prever' quais candidatos seriam eleitos em uma eleição  |
 | [Série Temporal e Previsão](./Ciência%20de%20dados/Série%20Temporal%20e%20Previsão.ipynb) | Código onde foi analisada uma série temporal de passageiros em voos comerciais, bem como a decomposição da série e a previsão de períodos futuros  |
