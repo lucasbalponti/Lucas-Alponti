@@ -62,13 +62,14 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
 <br>
 
-Nos códigos abaixo foram utilizadas diferentes bibliotecas Python de Machine Learning para realizar a criação e treinamento de modelos de aprendizado de máquina, avaliando as matrizes de confusão resultantes e suas taxas de acerto e erro:
+Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de diferentes algoritmos de machine learning, além de suas aplicações práticas utilizando diferentes bibliotecas Python de Machine Learning para realizar a criação e treinamento de modelos de aprendizado de máquina, avaliando as matrizes de confusão resultantes e suas taxas de acerto e erro, entre outros:
 
 | Nome | Descrição |
 | -- | --|
 | [Conceitos e teoria sobre machine learning](https://github.com/lucasbalponti/machine-learning-por-tras-dos-panos) | Neste projeto foram realizados estudos sobre a teoria envolvida em algoritmos de classificação como KNN, Naive-Bayes e árvore de decisão |
 | [Classificação com SKLearn](https://github.com/lucasbalponti/classificacao-com-sklearn) | Neste projeto foram realizados estudos sobre a biblioteca sklearn, alguns de seus classifcadores, e alguns conceitos como baseline e curva de decisão |
 | [Dados com muitas dimensões](https://github.com/lucasbalponti/Machine-learning-dados-com-muitas-dimensoes) | Neste projeto foram realizados estudos sobre como trabalhar com dados de muitas dimensões em um modelo de machine learning. |
+| [Clustering aplicado com K-means - recomendando músicas](https://github.com/lucasbalponti/Clustering-aplicado-recomendando-m-sicas-com-kmeans) | Neste projeto foram realizados estudos sobre o algoritmo K-means, bem como sua aplicação para agrupar e recomendar músicas. |
 | [Naive Bayes](./Machine%20Learning/Naive%20Bayes.ipynb) | Neste código foi treinado um classificador Naive Bayes. Naive Bayes é uma técnica para construir classificadores, considerando que toda característica é independente uma da outra |
 | [Árvore de decisão](./Machine%20Learning/Árvore%20de%20decisão.ipynb) | Neste código foi treinada uma Árvore de decisão. A Árvore de decisão é um algoritmo utilizado para classificação e regressão através de nós de decisão |
 | [Seleção de atributos](./Machine%20Learning/Seleção%20de%20atributos.ipynb) | Neste código foi feita uma analise dos atributos mais importantes para a criação do modelo, e então os mesmos foram utilizados para criar um novo modelo |
