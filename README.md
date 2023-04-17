@@ -62,7 +62,7 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
 <br>
 
-Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de diferentes algoritmos de machine learning, além de suas aplicações práticas utilizando diferentes bibliotecas Python de Machine Learning para realizar a criação e treinamento de modelos de aprendizado de máquina, avaliando as matrizes de confusão resultantes e suas taxas de acerto e erro, entre outros:
+Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de diferentes algoritmos de machine learning, além de suas aplicações práticas utilizando diferentes bibliotecas Python para realizar a criação e treinamento de modelos, avaliar suasas matrizes de confusão resultantes, suas taxas de acerto e erro, entre outros:
 
 | Nome | Descrição |
 | -- | --|
