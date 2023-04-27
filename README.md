@@ -62,7 +62,7 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 <details>
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
 <br>
-No que abrange as redes neurais artificiais, é de grande importância entender o __funcionamento de seus algoritmos__ para poder utilizá-los da maneira mais adequada. 
+No que abrange as redes neurais artificiais, é de grande importância entender o <b>funcionamento de seus algoritmos</b> para poder utilizá-los da maneira mais adequada. 
 
 Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos algoritmos dos diferentes tipos de redes neurais artificiais existentes:
 
