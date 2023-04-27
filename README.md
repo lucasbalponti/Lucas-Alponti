@@ -12,7 +12,7 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 
 **Contato profissional: lucasbalponti@gmail.com**
 
-## Machine Learning
+## 🤖 Machine Learning
 
 <details>
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
@@ -33,7 +33,7 @@ Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de dif
 
 </details>
 
-## Engenharia e Ciência de dados
+## 📈 Engenharia e Ciência de dados
 
 <details>
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
@@ -57,7 +57,7 @@ Os códigos abaixo têm como objetivo a importação, manipulação, e/ou análi
 
 </details>
 
-## Redes Neurais Artificais
+## 🧠 Redes Neurais Artificais
 
 <details>
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
@@ -77,7 +77,7 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 
 </details>
 
-## DevOps
+## ⚙️ DevOps
 
 <details>
 <summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
