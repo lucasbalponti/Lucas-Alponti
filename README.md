@@ -12,6 +12,27 @@ Este repositório tem como objetivo servir de portfólio para apresentar os dife
 
 **Contato profissional: lucasbalponti@gmail.com**
 
+## Machine Learning
+
+<details>
+<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
+<br>
+
+Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de diferentes algoritmos de machine learning, além de suas aplicações práticas utilizando diferentes bibliotecas Python para realizar a criação e treinamento de modelos, avaliar suasas matrizes de confusão resultantes, suas taxas de acerto e erro, entre outros:
+
+| Nome | Descrição |
+| -- | --|
+| [Conceitos e teoria sobre machine learning](https://github.com/lucasbalponti/machine-learning-por-tras-dos-panos) | Neste projeto foram realizados estudos sobre a teoria envolvida em algoritmos de classificação como KNN, Naive-Bayes e árvore de decisão |
+| [Classificação com SKLearn](https://github.com/lucasbalponti/classificacao-com-sklearn) | Neste projeto foram realizados estudos sobre a biblioteca sklearn, alguns de seus classifcadores, e alguns conceitos como baseline e curva de decisão |
+| [Dados com muitas dimensões](https://github.com/lucasbalponti/Machine-learning-dados-com-muitas-dimensoes) | Neste projeto foram realizados estudos sobre como trabalhar com dados de muitas dimensões em um modelo de machine learning. |
+| [Clustering aplicado com K-means - recomendando músicas](https://github.com/lucasbalponti/Clustering-aplicado-recomendando-m-sicas-com-kmeans) | Neste projeto foram realizados estudos sobre o algoritmo K-means, bem como sua aplicação para agrupar e recomendar músicas. |
+| [Clustering - validando modelos e encontrando padrões de dados](https://github.com/lucasbalponti/Clustering-e-padroes-de-dados) | Neste projeto foram realizados estudos sobre clustering, os critérios teóricos para validar um modelo de clusters, a aplicação prática dessa validação e a identificação de padrões em um modelo. |
+| [Validação de Modelos](https://github.com/lucasbalponti/Machine-Learning-validacao-de-modelos) | Neste projeto foram realizados estudos sobre a validação de modelos de aprendizado de máquina e o conceito de cross-validation. |
+| [Ensemble Learning - Random Forest](./Machine%20Learning/Ensemble%20Learning%20-%20Random%20Forest.ipynb) | Neste código foi treinado um método 'ensemble'. Estes métodos utilizando multiplos algoritmos de aprendizado para obter melhor performance preditiva. No exemplo foi utilizado o Random Forest, que utiliza multiplas árvores de decisão |
+| [Regras de associação](./Machine%20Learning/Regras%20de%20associação.ipynb) | Neste código foi treinado um algoritmo de regras de associação. As regras de associação são utilizadas para descobrir elementos que ocorrem em comum dentro de um determinado conjunto de dados |
+
+</details>
+
 ## Engenharia e Ciência de dados
 
 <details>
@@ -53,27 +74,6 @@ Portanto, os códigos abaixo têm o objetivo de compreender o funcionamento dos 
 | [Rede Recorrente de Hopfield](./Redes%20Neurais/Redes%20recorrentes%20de%20Hopfield.py) | Rede neural recorrente utilizada para memorização |
 | [Rede Auto-Organizável de Konohen](./Redes%20Neurais/Rede%20Auto-organizável%20de%20Konohen.py) | Rede neural auto-organizável de Konohen para classificação |
 | [Redes Neurais na Prática Utilizando Keras](./Redes%20Neurais/Redes%20Neurais%20com%20Keras.ipynb) | Criando uma rede neural na prática utilizando a biblioteca Keras no Python |
-
-</details>
-
-## Machine Learning
-
-<details>
-<summary><b>Clique para expandir</b> a lista de códigos e projetos</summary>
-<br>
-
-Nos projetos abaixo foram realizados estudos sobre os conceitos teóricos de diferentes algoritmos de machine learning, além de suas aplicações práticas utilizando diferentes bibliotecas Python para realizar a criação e treinamento de modelos, avaliar suasas matrizes de confusão resultantes, suas taxas de acerto e erro, entre outros:
-
-| Nome | Descrição |
-| -- | --|
-| [Conceitos e teoria sobre machine learning](https://github.com/lucasbalponti/machine-learning-por-tras-dos-panos) | Neste projeto foram realizados estudos sobre a teoria envolvida em algoritmos de classificação como KNN, Naive-Bayes e árvore de decisão |
-| [Classificação com SKLearn](https://github.com/lucasbalponti/classificacao-com-sklearn) | Neste projeto foram realizados estudos sobre a biblioteca sklearn, alguns de seus classifcadores, e alguns conceitos como baseline e curva de decisão |
-| [Dados com muitas dimensões](https://github.com/lucasbalponti/Machine-learning-dados-com-muitas-dimensoes) | Neste projeto foram realizados estudos sobre como trabalhar com dados de muitas dimensões em um modelo de machine learning. |
-| [Clustering aplicado com K-means - recomendando músicas](https://github.com/lucasbalponti/Clustering-aplicado-recomendando-m-sicas-com-kmeans) | Neste projeto foram realizados estudos sobre o algoritmo K-means, bem como sua aplicação para agrupar e recomendar músicas. |
-| [Clustering - validando modelos e encontrando padrões de dados](https://github.com/lucasbalponti/Clustering-e-padroes-de-dados) | Neste projeto foram realizados estudos sobre clustering, os critérios teóricos para validar um modelo de clusters, a aplicação prática dessa validação e a identificação de padrões em um modelo. |
-| [Validação de Modelos](https://github.com/lucasbalponti/Machine-Learning-validacao-de-modelos) | Neste projeto foram realizados estudos sobre a validação de modelos de aprendizado de máquina e o conceito de cross-validation. |
-| [Ensemble Learning - Random Forest](./Machine%20Learning/Ensemble%20Learning%20-%20Random%20Forest.ipynb) | Neste código foi treinado um método 'ensemble'. Estes métodos utilizando multiplos algoritmos de aprendizado para obter melhor performance preditiva. No exemplo foi utilizado o Random Forest, que utiliza multiplas árvores de decisão |
-| [Regras de associação](./Machine%20Learning/Regras%20de%20associação.ipynb) | Neste código foi treinado um algoritmo de regras de associação. As regras de associação são utilizadas para descobrir elementos que ocorrem em comum dentro de um determinado conjunto de dados |
 
 </details>
 
